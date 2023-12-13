@@ -1,0 +1,1 @@
+Estou iniciando minha jornada com Java, contribuições são sempre bem-vindas! Se você encontrar bugs, melhorias ou novos recursos que gostaria de adicionar, sinta-se a vontade para abrir uma issue ou enviar um pull request.
