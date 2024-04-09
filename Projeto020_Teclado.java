@@ -8,10 +8,7 @@ public class Teclado
      private static InputStreamReader i = new InputStreamReader (System.in);
      private static BufferedReader d = new BufferedReader(i);
 
-     /**
-        Lê um inteiro.
-        @return int
-     */
+
      public static int leInt ()
      {   int a = 0;
          try
@@ -30,10 +27,7 @@ public class Teclado
          return (a);
      }
 
-     /**
-        Lê um inteiro, com mensagem.
-        @return int
-     */
+
      public static int leInt (String msg)
      {   int a = 0;
          System.out.println(msg);
@@ -53,10 +47,7 @@ public class Teclado
          return (a);
      }
 
-     /**
-        Lê um double.
-        @return double
-     */
+
      public static double leDouble()
      {   double a = 0;
          try
@@ -75,10 +66,7 @@ public class Teclado
          return (a);
      }
 
-     /**
-        Lê um double, com mensagem.
-        @return double
-     */
+
      public static double leDouble(String msg)
      {   double a = 0;
          System.out.println(msg);
@@ -98,10 +86,7 @@ public class Teclado
          return (a);
      }
 
-     /**
-        Lê um string.
-        @return String
-     */
+
      public static String leString()
      {   s = "";
          try
@@ -115,10 +100,7 @@ public class Teclado
          return (s);
      }
 
-     /**
-        Lê um string. com mensagem.
-        @return String
-     */
+
      public static String leString(String msg)
      {   s = "";
          System.out.println(msg);
@@ -151,10 +133,7 @@ public class Teclado
          return (a);
      }
 
-     /**
-        Lê um char, com mensagem.
-        @return char
-     */
+
      public static char leChar(String msg)
      {   char a = ' ';
          System.out.println(msg);
