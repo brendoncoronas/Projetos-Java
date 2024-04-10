@@ -16,6 +16,14 @@ public class ProgramaStock {
     System.out.print("Quantity in stock:");
     product.quantity = sc.nextInt();
 
+    System.out.println();
+    System.out.println("Product data:" + product);
+
+    System.out.println();
+    System.out.println("Enter the number of products to be added in stock:");
+    int quantity = sc.nextInt();
+    product.addProducts(quantity);
+        
     sc.close();
     
 }
